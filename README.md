@@ -10,7 +10,7 @@
 <!-- El GIF hace que el proyecto entre por los ojos -->
 <img src="assets/demo.gif" alt="Affinity Finder Demo" width="350">
 
-🎥 [Click here to watch the full walkthrough with more functionalities](assets/fullDemo.mp4)
+🎥 [Click here to watch the full walkthrough with more functionalities](assets/FullDemo.mp4)
 
 ## 💡 How It Works
 
