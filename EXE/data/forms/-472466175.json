@@ -1,0 +1,15 @@
+{
+  "UFID": -472466175,
+  "title": "My new form",
+  "description": "No desc",
+  "UUID_creator": 1878632613,
+  "questions": [
+    {
+      "questionText": "First Question",
+      "questionType": "NUMERIC",
+      "minBound": 1,
+      "maxBound": 5
+    }
+  ],
+  "affinityGroups": []
+}
