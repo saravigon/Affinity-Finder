@@ -1,0 +1,18 @@
+{
+  "responderUUID": 132,
+  "formUFID": -1190838527,
+  "answer": [
+    {
+      "qType": "NUMERIC",
+      "answer": 94
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 12
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 49
+    }
+  ]
+}

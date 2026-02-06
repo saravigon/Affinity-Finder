@@ -1,0 +1,16 @@
+{
+  "UFID": -1550512077,
+  "title": "titulo",
+  "description": "la dec",
+  "UUID_creator": -1457975656,
+  "questions": [
+    {
+      "questionText": "titulo pregunta",
+      "questionType": "NUMERIC",
+      "maxChoices": 0,
+      "minBound": 1,
+      "maxBound": 23
+    }
+  ],
+  "affinityGroups": []
+}

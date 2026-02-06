@@ -1,0 +1,42 @@
+{
+  "responderUUID": -59411780,
+  "formUFID": 207838881,
+  "answer": [
+    {
+      "qType": "OPEN_ENDED",
+      "answer": "Tennis"
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 5
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Team sports"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Competition"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Padel"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Very active"
+      ]
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 4
+    }
+  ]
+}

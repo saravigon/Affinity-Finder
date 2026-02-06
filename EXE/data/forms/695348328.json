@@ -1,0 +1,43 @@
+{
+  "UFID": 695348328,
+  "title": "Test Form Imported Answers Expected",
+  "description": "This is a test form with basic questions that no user has answered.",
+  "UUID_creator": -443650931,
+  "questions": [
+    {
+      "questionText": "Open Ended Question",
+      "questionType": "OPEN_ENDED"
+    },
+    {
+      "questionText": "Numeric Question",
+      "questionType": "NUMERIC",
+      "minBound": 1,
+      "maxBound": 50
+    },
+    {
+      "questionText": "Multiple Choice 1",
+      "choices": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "order": false
+    },
+    {
+      "questionText": "Multiple Choice 2",
+      "choices": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "order": true
+    }
+  ],
+  "affinityGroups": []
+}

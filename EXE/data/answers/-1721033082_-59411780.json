@@ -1,0 +1,20 @@
+{
+  "responderUUID": -59411780,
+  "formUFID": -1721033082,
+  "answer": [
+    {
+      "qType": "OPEN_ENDED",
+      "answer": "Fair"
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 4
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Good"
+      ]
+    }
+  ]
+}

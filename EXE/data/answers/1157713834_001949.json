@@ -1,0 +1,60 @@
+{
+  "responderUUID": 1949,
+  "formUFID": 1157713834,
+  "answer": [
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Male"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Yes"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "3+"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Graduate"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": []
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 4416
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 1250
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 110
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 360
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 1
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Urban"
+      ]
+    }
+  ]
+}

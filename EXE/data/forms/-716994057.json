@@ -1,0 +1,45 @@
+{
+  "UFID": -716994057,
+  "title": "form1",
+  "description": "d",
+  "UUID_creator": -1457975656,
+  "questions": [
+    {
+      "questionText": "open end",
+      "questionType": "OPEN_ENDED"
+    },
+    {
+      "questionText": "mc o",
+      "choices": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "order": true
+    },
+    {
+      "questionText": "mc",
+      "choices": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 2,
+      "order": false
+    },
+    {
+      "questionText": "numeric",
+      "questionType": "NUMERIC",
+      "minBound": 1,
+      "maxBound": 100
+    }
+  ],
+  "affinityGroups": []
+}

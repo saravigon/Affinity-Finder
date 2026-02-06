@@ -1,0 +1,30 @@
+{
+  "UFID": 599496508,
+  "title": "Test Form Empty Answers Expected",
+  "description": "This is a test form with empty expected answers",
+  "UUID_creator": -1457975656,
+  "questions": [
+    {
+      "questionText": "empty1",
+      "questionType": "OPEN_ENDED"
+    },
+    {
+      "questionText": "empty2",
+      "choices": [
+        "a",
+        "b",
+        "c"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 2,
+      "order": false
+    },
+    {
+      "questionText": "empty3",
+      "questionType": "NUMERIC",
+      "minBound": 1,
+      "maxBound": 2
+    }
+  ],
+  "affinityGroups": []
+}

@@ -1,0 +1,102 @@
+{
+  "UFID": 207838881,
+  "title": "Sports Survey",
+  "description": "We would like to know more about your sports habits and preferences.",
+  "UUID_creator": 1878632613,
+  "questions": [
+    {
+      "questionText": "What is your favorite sport?",
+      "questionType": "OPEN_ENDED"
+    },
+    {
+      "questionText": "How many hours per week do you usually spend doing sports?",
+      "questionType": "NUMERIC",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 40
+    },
+    {
+      "questionText": "How do you prefer to practice sports? (Select one)",
+      "choices": [
+        "Individually",
+        "Team sports"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "order": false
+    },
+    {
+      "questionText": "What motivates you the most to do sports? (Select one)",
+      "choices": [
+        "Health",
+        "Fun",
+        "Competition",
+        "Stress relief",
+        "Socializing"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "order": false
+    },
+    {
+      "questionText": "Which sports do you practice regularly? (Select up to 3)",
+      "choices": [
+        "Running",
+        "Cycling",
+        "Swimming",
+        "Gym",
+        "Football",
+        "Basketball",
+        "Padel",
+        "Martial arts",
+        "Other"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 3,
+      "order": false
+    },
+    {
+      "questionText": "What best describes your level of physical activity? (Select one)",
+      "choices": [
+        "Very active",
+        "Moderately active",
+        "Lightly active",
+        "Sedentary"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "order": false
+    },
+    {
+      "questionText": "How many sports events do you attend per year?",
+      "questionType": "NUMERIC",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 50
+    }
+  ],
+  "affinityGroups": [
+    {
+      "representativeUUID": -130121008,
+      "membersUUID": [
+        -130121008,
+        -56971878,
+        -52544522,
+        1878632613,
+        -1457822243,
+        -130559431,
+        -59411780,
+        -1457975656
+      ]
+    },
+    {
+      "representativeUUID": -58491051,
+      "membersUUID": [
+        -58491051,
+        -130290837,
+        -60844986,
+        -1865431216
+      ]
+    }
+  ]
+}

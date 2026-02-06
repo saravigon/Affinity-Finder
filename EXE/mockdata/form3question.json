@@ -1,0 +1,22 @@
+{
+    "title": "Title of the 3 questions form",
+    "description": "We want to know your opinion about the service.",
+    "questions": [
+        {
+        "type": "OPEN_ENDED",
+        "text": "What do you think about the product?"
+        },
+        {
+        "type": "NUMERIC",
+        "text": "How would you evaluate the product?",
+        "min": 1,
+        "max": 5
+        },
+        {
+        "type": "MULTIPLE_CHOICE",
+        "text": "How would you rate the service?",
+        "options": ["Excellent", "Good", "Fair", "Poor"],
+        "maxChoices": 2
+        }
+    ]
+}
