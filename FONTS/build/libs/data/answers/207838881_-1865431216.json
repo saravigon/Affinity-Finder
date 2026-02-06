@@ -1,0 +1,42 @@
+{
+  "responderUUID": -1865431216,
+  "formUFID": 207838881,
+  "answer": [
+    {
+      "qType": "OPEN_ENDED",
+      "answer": "Gym"
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 10
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Individually"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Health"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Gym"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Very active"
+      ]
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 0
+    }
+  ]
+}

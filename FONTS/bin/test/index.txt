@@ -1,0 +1,5 @@
+test/java index:
+Summary: test/java is a folder containing all the JUnit test files, divided into controller test files and domain files.
+
+    * controllers -> Contains all the controller test files.
+    * domain -> Contains all the domain test files.

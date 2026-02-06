@@ -1,0 +1,8 @@
+test/controllers index:
+Summary: test/controller is a folder containing all the controller classes JUnit test.
+
+    * AffinityGroupControllerTest.java -> JUnit test over the class AffinityGroupController.
+    * DataManager.java -> JUnit test over the class DataManager.
+    * UserController.java -> JUnit test over the class UserController.
+    * KmeansController.java -> JUnit test over the class KmeansController.
+    * FormController.java -> JUnit test over the class FormController.

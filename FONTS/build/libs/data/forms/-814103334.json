@@ -1,0 +1,13 @@
+{
+  "UFID": -814103334,
+  "title": "Test Form to Delete Question",
+  "description": "This is a test form to delete a question",
+  "UUID_creator": -1457975656,
+  "questions": [
+    {
+      "questionText": "q1",
+      "questionType": "OPEN_ENDED"
+    }
+  ],
+  "affinityGroups": []
+}

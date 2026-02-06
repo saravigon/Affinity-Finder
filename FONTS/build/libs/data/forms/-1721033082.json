@@ -1,0 +1,54 @@
+{
+  "UFID": -1721033082,
+  "title": "Satisfaction Form 2",
+  "description": "We want to know your opinion about the service.",
+  "UUID_creator": 1878632613,
+  "questions": [
+    {
+      "questionText": "What do you think about the product?",
+      "questionType": "OPEN_ENDED"
+    },
+    {
+      "questionText": "How would you evaluate the product?",
+      "questionType": "NUMERIC",
+      "maxChoices": 1,
+      "minBound": 1,
+      "maxBound": 5
+    },
+    {
+      "questionText": "How would you rate the service?",
+      "choices": [
+        "Excellent",
+        "Good",
+        "Fair",
+        "Poor"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 2,
+      "order": false
+    }
+  ],
+  "affinityGroups": [
+    {
+      "representativeUUID": -60844986,
+      "membersUUID": [
+        -60844986,
+        -130290837,
+        -130121008,
+        -130559431,
+        -56971878,
+        -52544522,
+        -59411780
+      ]
+    },
+    {
+      "representativeUUID": 1878632613,
+      "membersUUID": [
+        1878632613,
+        -1865431216,
+        -1457975656,
+        -58491051
+      ]
+    }
+  ]
+}

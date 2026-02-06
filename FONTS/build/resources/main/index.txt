@@ -1,0 +1,2 @@
+Index for resources/
+The file necesary for tokenazing English words 

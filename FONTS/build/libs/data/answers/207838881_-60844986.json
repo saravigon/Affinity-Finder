@@ -1,0 +1,42 @@
+{
+  "responderUUID": -60844986,
+  "formUFID": 207838881,
+  "answer": [
+    {
+      "qType": "OPEN_ENDED",
+      "answer": "Running"
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 4
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Individually"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Stress relief"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Running"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Lightly active"
+      ]
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 1
+    }
+  ]
+}

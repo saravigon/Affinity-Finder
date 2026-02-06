@@ -1,0 +1,75 @@
+plugins {
+    id 'java'
+    id 'application'
+    // 1. AÑADIMOS EL PLUGIN SHADOW (Estándar para Fat JARs)
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group = 'org.example' // Puedes cambiar esto
+version = '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+    // No hace falta definir 'test' vacío si no lo usas, pero lo dejo por si acaso
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://maven.jzy3d.org/releases"
+    }
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.apache.opennlp:opennlp-tools:2.3.1'
+    
+    // Graficas
+    implementation 'org.jzy3d:jzy3d-api:1.0.3'
+    implementation 'org.jzy3d:jzy3d-core-awt:2.2.1'
+    implementation("org.openjfx:javafx:11") // Ojo: Java 21 suele requerir JavaFX más nuevo, pero si te funciona, déjalo.
+    
+    implementation "org.apache.commons:commons-math3:3.6.1"
+}
+
+application {
+    mainClass = 'app.Main'
+
+    // Estos argumentos funcionan para './gradlew run' y para los scripts de 'distZip'
+    applicationDefaultJvmArgs = [
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+        "--add-opens=java.desktop/java.awt=ALL-UNNAMED",
+        "--add-opens=java.desktop/sun.java2d=ALL-UNNAMED"
+    ]
+}
+
+// 2. CONFIGURACIÓN DEL PLUGIN SHADOW
+shadowJar {
+    // Esto asegura que Jzy3d y OpenNLP funcionen bien (fusiona archivos de servicio)
+    mergeServiceFiles() 
+    
+    archiveBaseName.set('AffinityFinder') // El nombre del archivo final
+    archiveClassifier.set('all')        // Añade -all al nombre
+    archiveVersion.set('1.0')
+
+    manifest {
+        attributes 'Main-Class': 'app.Main'
+    }
+}
+
+// Configuración opcional para Javadoc
+tasks.javadoc {
+    options.addBooleanOption('private', true)
+    options.addStringOption('encoding', 'UTF-8')
+    options.addStringOption('charSet', 'UTF-8')
+}

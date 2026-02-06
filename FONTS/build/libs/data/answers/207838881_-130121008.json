@@ -1,0 +1,42 @@
+{
+  "responderUUID": -130121008,
+  "formUFID": 207838881,
+  "answer": [
+    {
+      "qType": "OPEN_ENDED",
+      "answer": "Football"
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 2
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Team sports"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Socializing"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Football"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Lightly active"
+      ]
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 1
+    }
+  ]
+}

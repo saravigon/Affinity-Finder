@@ -1,0 +1,13 @@
+test/domain index:
+Summary: test/domain is a folder containing all the domain classes JUnit test.
+
+    * AdminTest.java -> JUnit test over the class Admin. (still empty unimplemented)
+    * AffinityGroupTest.java -> JUnit test over the class AffinityGroup.
+    * AnswerTest.java -> JUnit test over the class Answer.
+    * FormTest.java ->  JUnit test over the class Form.
+    * KmeansTest.java ->  JUnit test over the class Kmeans.
+    * KmeansHelperTest.java ->  JUnit test over the class KmeansHelper.
+    * PersonTest.java ->  JUnit test over the class Person.
+    * ProfileTest.java ->  JUnit test over the class Profile.
+    * QuestionTest.java ->  JUnit test over the class Question.
+    * QuestionAnswerTest.java ->  JUnit test over the class QuestionAnswer.

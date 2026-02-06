@@ -1,0 +1,42 @@
+{
+  "responderUUID": -130290837,
+  "formUFID": 207838881,
+  "answer": [
+    {
+      "qType": "OPEN_ENDED",
+      "answer": "Cycling"
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 8
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Individually"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Health"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Cycling"
+      ]
+    },
+    {
+      "qType": "MULTIPLE_CHOICE",
+      "answer": [
+        "Moderately active"
+      ]
+    },
+    {
+      "qType": "NUMERIC",
+      "answer": 6
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "UFID": 1157713834,
+  "title": "Form per loan ID",
+  "description": "...",
+  "UUID_creator": 1878632613,
+  "questions": [
+    {
+      "questionText": "Gender",
+      "choices": [
+        "Male",
+        "Female"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": false
+    },
+    {
+      "questionText": "Married",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": false
+    },
+    {
+      "questionText": "Dependents",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3+"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": false
+    },
+    {
+      "questionText": "Education",
+      "choices": [
+        "Graduate",
+        "Not Graduate"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": false
+    },
+    {
+      "questionText": "Self_Employed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": false
+    },
+    {
+      "questionText": "ApplicantIncome",
+      "questionType": "NUMERIC",
+      "maxChoices": 0,
+      "minBound": 0,
+      "maxBound": 72529
+    },
+    {
+      "questionText": "CoapplicantIncome",
+      "questionType": "NUMERIC",
+      "maxChoices": 0,
+      "minBound": 0,
+      "maxBound": 24000
+    },
+    {
+      "questionText": "LoanAmount",
+      "questionType": "NUMERIC",
+      "maxChoices": 0,
+      "minBound": 28,
+      "maxBound": 550
+    },
+    {
+      "questionText": "Loan_Amount_Term",
+      "questionType": "NUMERIC",
+      "maxChoices": 0,
+      "minBound": 6,
+      "maxBound": 480
+    },
+    {
+      "questionText": "Credit_History",
+      "questionType": "NUMERIC",
+      "maxChoices": 0,
+      "minBound": 0,
+      "maxBound": 1
+    },
+    {
+      "questionText": "Property_Area",
+      "choices": [
+        "Urban",
+        "Semiurban",
+        "Rural"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": false
+    }
+  ],
+  "responders": [
+    -221231800
+  ],
+  "affinityGroups": []
+}

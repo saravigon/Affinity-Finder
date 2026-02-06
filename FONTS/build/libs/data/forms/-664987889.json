@@ -1,0 +1,53 @@
+{
+  "UFID": -664987889,
+  "title": "General Test Form",
+  "description": "This is a general test form for multiple tests",
+  "UUID_creator": -1457975656,
+  "questions": [
+    {
+      "questionText": "open_ended question",
+      "questionType": "OPEN_ENDED",
+      "maxChoices": 0,
+      "minBound": 0,
+      "maxBound": 0
+    },
+    {
+      "questionText": "multiple_choice question",
+      "choices": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 1,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": true
+    },
+    {
+      "questionText": "multiple_choice question2 (n_o)",
+      "choices": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "questionType": "MULTIPLE_CHOICE",
+      "maxChoices": 2,
+      "minBound": 0,
+      "maxBound": 0,
+      "order": false
+    },
+    {
+      "questionText": "question_numeric",
+      "questionType": "NUMERIC",
+      "maxChoices": 0,
+      "minBound": 1,
+      "maxBound": 100
+    }
+  ],
+  "affinityGroups": []
+}

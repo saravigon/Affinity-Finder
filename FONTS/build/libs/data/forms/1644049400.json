@@ -1,0 +1,37 @@
+{
+  "UFID": 1644049400,
+  "title": "Basic Satisfaction Form",
+  "description": "We want to know your opinion about the service.",
+  "UUID_creator": 1878632613,
+  "questions": [
+    {
+      "questionText": "How would you rate the product?",
+      "questionType": "NUMERIC",
+      "maxChoices": 1,
+      "minBound": 1,
+      "maxBound": 5
+    }
+  ],
+  "affinityGroups": [
+    {
+      "representativeUUID": -130121008,
+      "membersUUID": [
+        -130121008,
+        -52544522,
+        -56971878,
+        -60844986
+      ]
+    },
+    {
+      "representativeUUID": -130290837,
+      "membersUUID": [
+        -130290837,
+        -130559431,
+        -1865431216,
+        -58491051,
+        -59411780,
+        1878632613
+      ]
+    }
+  ]
+}
