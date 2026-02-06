@@ -1,0 +1,11 @@
+app
+domain.classes
+domain.controllers
+domain.exceptions
+persistence
+presentation.classes
+presentation.classes.admin
+presentation.classes.affinity
+presentation.classes.form
+presentation.classes.profile
+presentation.controllers
